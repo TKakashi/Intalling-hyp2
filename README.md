@@ -1,6 +1,6 @@
 # 🖥️ Hyprland Config for Laptop – Kanagawa Theme
 
-![Hyprland](https://img.shields.io/badge/Hyprland-0.41+-blue) ![License](https://img.shields.io/badge/license-MIT-green[https://github.com/TKakashi/Intalling-hyp2/blob/07d7ee6120f855b96659d480e7e40ebdd808b636/LICENSE])
+![Hyprland](https://img.shields.io/badge/Hyprland-0.41+-blue) ![License](https://img.shields.io/badge/license-MIT-green)(https://github.com/TKakashi/Intalling-hyp2/blob/07d7ee6120f855b96659d480e7e40ebdd808b636/LICENSE)
 
 Плавная, элегантная и полностью функциональная конфигурация [Hyprland](https://hyprland.org/) для ноутбуков.  
 Вдохновлена палитрой **Kanagawa** (тёплые чернильные тона, акценты waveBlue2). Никаких галлюцинаций — только чистые, приятные глазу цвета.
