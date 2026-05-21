@@ -1,37 +1,33 @@
-# 🖥️ Hyprland Config for Laptop – Kanagawa Theme
+# 🖥️ Hyprland Laptop Configuration – Kanagawa Theme
 
-![Hyprland](https://img.shields.io/badge/Hyprland-0.41+-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+[![Hyprland Version](https://img.shields.io/badge/Hyprland-0.55+-blue)](https://hyprland.org/)
+[![Kitty Version](https://img.shields.io/badge/Kitty-0.35+-blueviolet)](https://sw.kovidgoyal.net/kitty/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Плавная, элегантная и полностью функциональная конфигурация [Hyprland](https://hyprland.org/) для ноутбуков.  
-Вдохновлена палитрой **Kanagawa** (тёплые чернильные тона, акценты waveBlue2). Никаких галлюцинаций — только чистые, приятные глазу цвета.
+> Чистый, элегантный и полностью оптимизированный конфиг для ноутбука. Вдохновлён палитрой Kanagawa.
 
-Особенности:
-- 🎨 Цветовая схема Kanagawa без резких переходов
-- ✨ Анимации с кастомными кривыми (overshot, smoothBounce)
-- 💻 Оптимизации для ноутбуков: VFR, энергосбережение, управление яркостью/громкостью
-- 🖱️ Полная поддержка тачпада (тапы, естественная прокрутка) — **без жестов тремя пальцами**
-- 🪟 Закругления, размытие, тени
-- ⌨️ Удобные хоткеи (SUPER as главная модификация)
+![Screenshot Placeholder](screenshot.png)
+
+## 🎯 Особенности
+
+*   **🎨 Эстетика Kanagawa**: Тёплые чернильные тона создают атмосферу, приятную для глаз, без "галлюцинаций" в цветах.
+*   **⚡ Оптимизация под ноутбуки**: Настройки энергосбережения (VFR), отключение автообновления и адаптация для Intel iGPU.
+*   **🚀 Высокая производительность**: Сбалансированные анимации, работа через Wayland и настройки, снижающие задержки.
+*   **⌨️ Эргономичные хоткеи**: Полноценное управление окнами, рабочими столами и системными настройками (громкость, яркость).
+*   **💻 Функции Kitty**: Аппаратное ускорение, поддержка лигатур и красивое размытие фона прямо "из коробки".
 
 ## 📦 Зависимости
 
-Перед установкой убедитесь, что у вас установлены:
+Прежде чем продолжить, убедитесь, что у вас установлены:
 
-- **Hyprland** (последняя стабильная версия)
-- **Alacritty** (терминал по умолчанию, можно заменить)
-- **wofi** (лаунчер приложений, `SUPER + Space`)
-- **brightnessctl** (управление яркостью)
-- **pulseaudio** или **pipewire** + **pactl** (для громкости)
-- **Git** (для клонирования)
+*   **Arch Linux или производные** (Manjaro, EndeavourOS).
+*   **Пакеты**: `hyprland`, `kitty`, `wofi`, `brightnessctl`, `pipewire`, `pipewire-pulse`, `thunar`, `firefox`, `ttf-jetbrains-mono-nerd`.
 
-Установите их в вашем дистрибутиве:
+Для других дистрибутивов (Fedora, Ubuntu) команды установки могут отличаться.
 
-```bash
-# Arch / EndeavourOS / Manjaro
-sudo pacman -S hyprland alacritty wofi brightnessctl pulseaudio-utils
+## ⚡ Быстрая установка из репозитория
 
-# Fedora
-sudo dnf install hyprland alacritty wofi brightnessctl pulseaudio-utils
-
-# Ubuntu / Debian (сборка Hyprland из исходников, см. официальный wiki)
-# Для остальных пакетов: sudo apt install alacritty wofi brightnessctl pulseaudio-utils
+1.  Клонируйте репозиторий:
+    ```bash
+    git clone https://github.com/ВАШ_НИК/my-hyprland-config.git
+    cd my-hyprland-config
