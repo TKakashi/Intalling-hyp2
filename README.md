@@ -17,7 +17,7 @@
 ## 🚀 Быстрая установка
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/ВАШ_НИК/hyprland-amd-config.git
+git clone https://github.com/TKakashi/hyprland-amd-config.git
 cd hyprland-amd-config
 
 # 2. Запустите скрипт установки
