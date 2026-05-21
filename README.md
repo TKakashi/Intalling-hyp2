@@ -2,7 +2,7 @@
 
 [![Hyprland Version](https://img.shields.io/badge/Hyprland-0.55+-blue)](https://hyprland.org/)
 [![Kitty Version](https://img.shields.io/badge/Kitty-0.35+-blueviolet)](https://sw.kovidgoyal.net/kitty/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache License 2.0](https://img.shields.io/badge/Apache License 2.0.svg)](https://opensource.org/licenses/MIT)
 
 > Чистый, элегантный и полностью оптимизированный конфиг для ноутбука. Вдохновлён палитрой Kanagawa.
 
