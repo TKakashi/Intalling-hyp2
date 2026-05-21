@@ -1,24 +1,28 @@
-# 🚀 Hyprland Laptop Configuration (Optimized)
+# Hyprland AMD Laptop Config (Kitty + Kanagawa)
 
-[![Hyprland](https://img.shields.io/badge/Hyprland-0.55+-blue)](https://hyprland.org/)
-[![Kitty](https://img.shields.io/badge/Terminal-Kitty-orange)](https://sw.kovidgoyal.net/kitty/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-
-Полная, готовая к использованию конфигурация для Hyprland, оптимизированная для ноутбуков с фокусом на плавность, производительность и стиль. Включает в себя детальную настройку терминала Kitty, палитру Kanagawa и оптимизации для продления времени автономной работы.
-
-![Скриншот рабочего стола](screenshot.png)
+Оптимизированная конфигурация Hyprland для ноутбуков с графикой AMD, плавными анимациями и стилем Kanagawa.
 
 ## ✨ Особенности
+- **🚀 Оптимизировано для AMD**: Настройки `WLR_DRM_NO_ATOMIC,1` и `allow_tearing` для производительности.
+- **🎨 Эстетика Kanagawa**: Единая цветовая схема для Hyprland и Kitty.
+- **🔋 Управление питанием**: Скрипты для быстрого переключения режимов производительности и энергосбережения.
+- **📦 Простая установка**: Один скрипт (`install.sh`) и готово.
 
-- ⚡ **Максимальная производительность:** Настройки для плавной работы на ограниченном «железе» ноутбуков.
-- 🔋 **Экономия заряда:** Включена переменная частота кадров (VFR) для снижения энергопотребления[reference:2].
-- 🎨 **Стильный внешний вид:** Плавные анимации, красивое размытие и палитра Kanagawa без «галлюцинаций».
-- ⌨️ **Готовые хоткеи:** Удобное управление окнами, рабочими столами и системными функциями.
-- 🖱️ **Полная поддержка тачпада:** Естественная прокрутка, тапы, отключение при печати[reference:3].
+## 📋 Требования
+- Arch Linux или производные (Manjaro, EndeavourOS).
+- Git.
+- Установленные пакеты: `hyprland`, `kitty`, `waybar`, `wofi`, `brightnessctl`, `pulseaudio-utils`, `power-profiles-daemon`.
+- Шрифты: `ttf-fantasque-nerd`.
 
-## 📦 Установка
-
-### 1. Установите зависимости
+## 🚀 Быстрая установка
 ```bash
-# Arch / Manjaro / EndeavourOS
-sudo pacman -S hyprland kitty waybar wofi brightnessctl thunar firefox ttf-nerd-fonts-symbols
+# 1. Клонируйте репозиторий
+git clone https://github.com/ВАШ_НИК/hyprland-amd-config.git
+cd hyprland-amd-config
+
+# 2. Запустите скрипт установки
+chmod +x install.sh
+./install.sh
+
+# 3. Перезапустите Hyprland
+hyprctl reload
